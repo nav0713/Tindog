@@ -1,0 +1,176 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+header{
+    background-color: #ff4c68;
+    color:#fff;
+
+}
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* NavBar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.navbar{
+    margin:0 0 75px 0;
+    padding:0;
+}
+.navbar-nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Title */
+
+.hero-image{
+    transform: rotate(20deg);
+    width: 60%;
+    position: absolute;
+    top: -50px;
+
+}
+.hero{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 8% 15%;
+}
+
+.slogan{
+  
+    font-size: 3rem;
+    line-height: 1.5;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
+}
+
+/* Features */
+.features-icon{
+    color:#ef8172;
+    margin-bottom: 20px;
+}
+.features-icon:hover{
+    color:#ff4c68;
+}
+
+#features{
+    text-align: center;
+    background-color: #fff;
+    padding: 8% 15%;
+   position: relative;
+
+}
+#features p{
+    color:#8f8f8f;
+}
+
+/* Testimonials */
+.carousel-item{
+  padding: 10% 15%;
+}
+.testimony-image{
+    width: 120px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#testimonials{
+    color:#fff;
+    background-color:#ff4c68;
+    text-align: center;
+}
+/* Press */
+
+
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 30px;
+}
+
+/* Pricing */
+.card-body{
+    height: 300px;
+}
+.sign-up-btn{
+    position: relative;
+    top: 45px;
+}
+
+#pricing{
+    padding:100px;
+}
+
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    padding:5% 20% ;
+
+}
+#cta h3{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+}
+#cta button{
+    margin:50px 10px ;
+}
+
+/* Footer */
+
+
+
+#social-media{
+    margin: 50px auto;
+}
+#social-media i{
+    padding:10px;
+    transition: all 1s;
+}
+#social-media i:hover{
+    transform: scale(2.2);
+    color: #666;
+}
+
+@media (max-width:1028px){
+    .hero-image{
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+    .hero{
+        text-align: center;
+    }
+    .hero button{
+        margin: 0px;
+
+    }
+}
+@media(max-width:725px){
+    .press-logo{
+        margin-bottom:20px;
+        width: 50%;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .testimonial-text{
+        font-size: 2rem;
+    }
+}
